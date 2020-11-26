@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -115,4 +116,26 @@ hr {
 
 .ow {
     background-color: var(--off-white-grey);
+}
+
+/** Footer **/
+
+.footer-link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-bottom-left-radius: 1rem;
+
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
