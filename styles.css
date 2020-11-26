@@ -8,7 +8,7 @@ body {
 }
 
 hr {
-    margin: 1rem 0rem;
+    margin: 2rem 0rem;
 }
 
 /** Container **/
@@ -46,4 +46,27 @@ hr {
 .list-item-inline {
     display: inline;
     padding: 0.5rem 1rem;
+}
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius : 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navigation .primary-link {
+    color: white;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
 }
