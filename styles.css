@@ -7,6 +7,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+hr {
+    margin: 1rem 0rem;
+}
+
 /** Container **/
 .container {
     padding-left: 1rem;
@@ -33,4 +37,13 @@ body {
     border-radius: 0.5rem;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+}
+
+/** Lists **/
+.list-non-bullet {
+    list-style: none;
+}
+.list-item-inline {
+    display: inline;
+    padding: 0.5rem 1rem;
 }
