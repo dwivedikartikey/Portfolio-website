@@ -3,7 +3,9 @@
 :root {
     --primary-color: #34D399;
     --dark-grey: #6B7280;
+    --off-white-grey: #F3F4F6;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -17,6 +19,7 @@ hr {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 .container-center {
     max-width: 600px;
     margin: auto;
@@ -32,6 +35,7 @@ hr {
     border-radius: 0.5rem;
     color: white;
 }
+
 .secondary-link {
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -44,10 +48,12 @@ hr {
 .list-non-bullet {
     list-style: none;
 }
+
 .list-item-inline {
     display: inline;
     padding: 0.5rem 1rem;
 }
+
 .navigation {
     background-color: var(--primary-color);
     color: white;
@@ -83,6 +89,7 @@ hr {
     display: block;
     margin: auto;
 }
+
 .hero .hero-heading {
     font-size: 2rem;
     color: var(--dark-grey);
@@ -96,3 +103,16 @@ hr {
     color: var(--primary-color);
 }
 
+/** Section **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white-grey);
+}
