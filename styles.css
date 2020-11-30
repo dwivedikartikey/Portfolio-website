@@ -44,6 +44,10 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
+.nav-pills {
+    margin: 1rem;
+}
+
 /** Lists **/
 .list-non-bullet {
     list-style: none;
