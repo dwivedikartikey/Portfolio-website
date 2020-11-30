@@ -17,7 +17,7 @@ hr {
 
 /** Container **/
 .container {
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
 }
 
 .container-center {
@@ -51,13 +51,13 @@ hr {
 
 .list-item-inline {
     display: inline;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
 }
 
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 2rem;
     border-bottom-left-radius : 1rem;
 }
 
