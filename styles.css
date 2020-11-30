@@ -44,11 +44,6 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
-.nav-pills {
-    margin-top: 2rem;
-    padding: 1rem;
-}
-
 /** Lists **/
 .list-non-bullet {
     list-style: none;
@@ -78,6 +73,7 @@ hr {
 .navigation .nav-pills {
     text-align: right;
     padding: 1rem;
+    margin-top: auto;
 }
 
 .navigation .link-active {
