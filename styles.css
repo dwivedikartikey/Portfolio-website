@@ -18,6 +18,7 @@ hr {
 /** Container **/
 .container {
     padding: 1rem 2rem;
+    margin: auto;
 }
 
 .container-center {
@@ -73,7 +74,6 @@ hr {
 .navigation .nav-pills {
     text-align: right;
     padding: 1rem;
-    margin-top: 2rem;
 }
 
 .navigation .link-active {
