@@ -74,7 +74,6 @@ hr {
 .navigation .nav-pills {
     text-align: right;
     padding: 1rem;
-    margin-top: 1rem;
 }
 
 .navigation .link-active {
@@ -146,4 +145,8 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.nav-pills {
+    margin-top: 1rem;
 }
