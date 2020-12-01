@@ -52,7 +52,7 @@ hr {
 
 .list-item-inline {
     display: inline;
-    padding: 2rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .navigation {
@@ -145,5 +145,9 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.nav-brand .nav-pills {
+    margin-top: auto;
 }
 
