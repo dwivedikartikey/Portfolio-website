@@ -52,7 +52,7 @@ hr {
 
 .list-item-inline {
     display: inline;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .navigation {
@@ -134,8 +134,35 @@ hr {
     padding: 2rem 0rem;
     text-align: center;
     color: white;
-    border-bottom-left-radius: 1rem;
+}
 
+.github-icon {
+    margin-top: .625em;
+	width: 40px;
+	height: 40px;
+    border-radius: 25px;
+}  
+
+
+.twitter-icon {
+    margin-top: .625em;
+	width: 40px;
+	height: 40px;
+    border-radius: 25px;
+}
+
+.linkedin-icon {
+    margin-top: .625em;
+	width: 40px;
+	height: 40px;
+    border-radius: 25px;
+}
+
+.insta-icon {
+    margin-top: .625em;
+	width: 40px;
+	height: 40px;
+    border-radius: 25px;
 }
 
 .footer .footer-header {
